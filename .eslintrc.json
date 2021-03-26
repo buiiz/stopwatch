@@ -1,0 +1,51 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "standard",
+        "plugin:import/errors",
+        "plugin:import/warnings",
+        "plugin:jsx-a11y/recommended",
+        "plugin:react/recommended",
+        "plugin:prettier/recommended"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "react-hooks",
+        "jsx-a11y",
+        "prettier"
+    ],
+    "rules": {
+        "prettier/prettier": [
+            "error",
+            {
+                "bracketSpacing": false,
+                "jsxBracketSameLine": false,
+                "printWidth": 80,
+                "semi": true,
+                "singleQuote": true,
+                "tabWidth": 2,
+                "trailingComma": "es5",
+                "useTabs": false,
+                "proseWrap": "always"
+            }
+        ],
+        "react/react-in-jsx-scope": "off"
+    },
+    "settings": {
+        "react": {
+            "pragma": "React",
+            "version": "detect"
+        }
+    }
+}
