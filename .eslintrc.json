@@ -8,6 +8,7 @@
         "standard",
         "plugin:import/errors",
         "plugin:import/warnings",
+        "plugin:import/react",
         "plugin:jsx-a11y/recommended",
         "plugin:react/recommended",
         "plugin:prettier/recommended"
@@ -46,6 +47,11 @@
         "react": {
             "pragma": "React",
             "version": "detect"
+        },
+        "import/resolver": {
+            "node": {
+                "extensions": [".js",".jsx"]
+            }
         }
     }
 }
