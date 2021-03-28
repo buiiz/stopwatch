@@ -2,7 +2,7 @@
 
 ![img.png](public/img.png)
 
-## Technologies
+## Technologies:
 
 - [React](https://reactjs.org)
 - [RxJS](https://rxjs-dev.firebaseapp.com/)
